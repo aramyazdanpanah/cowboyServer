@@ -1,0 +1,5 @@
+package cowboyServer.sample.func;
+import "cowboyServer.sample.type.proto";
+// messageCode = 101
+message Call {
+}

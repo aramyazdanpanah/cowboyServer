@@ -1,0 +1,4 @@
+package cowboyServer.sample.type;
+// messageCode = 001
+message  Type {
+}
