@@ -24,6 +24,7 @@ start(_StartType, _StartArgs) ->
                                                          env => #{dispatch => Dispatch}
                                                         }),
 
+    app_timer:start_link(),
     cowboyServer_sup:start_link().
 
 %%--------------------------------------------------------------------
